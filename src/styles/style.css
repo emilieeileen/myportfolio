@@ -74,6 +74,7 @@ img {
 }
 .projectIMG {
   width: 600px;
+  border-radius: 5px;
 }
 .icon {
   display: flex;
@@ -126,7 +127,7 @@ svg:hover {
 .flip-card {
   background-color: transparent;
   width: 380px;
-  height: 420px;
+  height: 440px;
   
   border-radius: 20px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */

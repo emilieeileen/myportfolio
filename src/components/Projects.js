@@ -23,7 +23,7 @@ import {
 import winston_game from '../images/winston-game-screenshot.png'
 import smp from "../images/FFN_img1.png"
 import arrivr_home from "../images/arrivr_home.png"
-import lc_post from "../images/LC_post.png"
+import lc_post from "../images/LC_post2.png"
 import DAUKWEB from "../images/dauk_web.png"
 import { CgWebsite } from 'react-icons/cg'
 
@@ -185,7 +185,7 @@ export default function Projects() {
         </div>
         <div className='d-flex flex-column'>
 
-          <p className='p-3 mr-5'>Since April 2020, I have been working with the Democrats Abroad UK Web Development team to create a new site for the organisation. During the development process, I aided in the creation of pages for multiple groups as well as conducted QA testing. My current role includes, but is not limited to, posting of events, design editing and Wordpress training for group and caucus leaders.</p>
+          <p className='p-3 mr-5'>Since April 2020, I have been working with the Democrats Abroad UK Web Development team to create a new site for the organisation. During the development process, I aided in the creation of pages for multiple groups as well as conducted QA testing. My current role includes, but is not limited to, posting events, design editing content blocks and Wordpress training for group and caucus leaders.</p>
           <div className='d-flex flex-row justify-content-center'>
             
             <div className='p-2 m-2'><a href='https://emilieeileen.github.io/project-1-pacman/'><CgWebsite size='5x' /></a></div>

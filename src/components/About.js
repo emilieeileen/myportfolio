@@ -25,7 +25,7 @@ export default function About() {
         <div>
           <h1 id='title' className='color-text'>Hi, I'm Emily!</h1>
           <p className='mt-4 mr-2 bio'>As a software developer with a background in sustainability, I have seen firsthand how technology drives innovative change in the world. With a passion for problem-solving, I began learning about programming with Code First Girls. I was inspired to enroll in General Assembly’s Software Engineering Immersive, where I fine-tuned my technical skills and enhanced my communication and project management skills. I am now looking for a new role as a software developer, where I can share my passion and drives with a team that will continue to push me to learn and grow.</p>
-
+          <p className='mt-4 mr-2 bio'>I am passionate about sustainability, technology, and data. Having experience in non-profits, policy groups, and private organisations, I have a wide range of experiences that have enhanced my skills to run and manage a diverse portfolio of projects. I am highly motivated and determined, with a keen eye for detail.</p>
         </div>
         <div className="d-flex flex-column">
           <img id='emily_photo' src={emily_photo} />
@@ -194,7 +194,7 @@ export default function About() {
                   <GiEarthAmerica id='card-icon' size='100px' />
                 </div>
                 <div className="flip-card-back">
-                  <p className='margin-center m-5'>I love to explore the world and experience new cultures. My goal is to visit 50 countries and autonomous territories in my life time. I have lived all around the world including Long Island, Scotland and Fiji!
+                  <p className='margin-center m-5'>I love to explore the world and experience new cultures. My goal is to visit 50 countries and autonomous territories in my life time and I have already visited 40! I have lived all around the world including Long Island, Scotland and Fiji!
             </p>
                 </div>
               </div>
@@ -221,16 +221,16 @@ export default function About() {
 
       <div className='d-flex flex-column justify-content-center' id='mobile-facts'>
 
-        <div id='funFact'>
+        <div id='funFact' className='padding-fix'>
           <h3 className='margin-center m-5 color-text'>Democrats Abroad <RiGovernmentLine id='card-icon' /></h3>
           
           <p className='margin-center ml-5 mr-5 pb-5'>I am an active member of Democrats Abroad UK, an expat organization that helps get American ex-pats at to vote as well as provide a community to meet other Americans with similar interests. I am particularly active in the Women's Caucus and the Environment Policy Network Group where I hold the roles of Co-Chair and Co-Lead respectively. I am also a member of the web development team, where I helped build and test the new site in addition to giving group and caucus leaders Wordpress training.</p>
         </div>
-        <div id='funFact'>
+        <div id='funFact' className='padding-fix'>
           <h3 className='margin-center m-5 color-text'>Travel <GiEarthAmerica id='card-icon' /></h3>
-          <p className='margin-center ml-5 mr-5 pb-5'>I love to explore the world and experience new cultures. My goal is to visit 50 countries and autonomous territories in my life time. I have lived all around the world including Long Island, Scotland and Fiji!</p>
+          <p className='margin-center ml-5 mr-5 pb-5'>I love to explore the world and experience new cultures. My goal is to visit 50 countries and autonomous territories in my lifetime and I have already visited 40! I have lived all around the world including Long Island, Scotland and Fiji!</p>
         </div>
-        <div id='funFact'>
+        <div id='funFact' className='padding-fix'>
           <h3 className='margin-center m-5 color-text'>Sustainability <RiPlantLine id='card-icon' /></h3>
 
           <p className='margin-center ml-5 mr-5 pb-5'>Gaining both my undergraduate and masters degrees in Sustainable Development and Environmental Politics, I am passionate about protecting our planet. I have previously worked as a Project lead and Project Assistant in multiple environmental charities, where my work focused on air quality awareness and communication. I am a volunteer Web Manager for Curious Earth, a digital news source for environmental stories.</p>

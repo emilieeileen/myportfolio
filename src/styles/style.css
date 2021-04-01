@@ -192,6 +192,9 @@ svg:hover {
     padding: 5px;
    
   }
+  .mr-5 {
+    margin-right: 0 !important;
+  }
   #fun-facts {
     display: flex !important;
     flex-direction: column !important;
@@ -206,7 +209,11 @@ svg:hover {
     min-width: 60%;
   }
   .projectIMG{
-    width: 300px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 15rem !important;
+    position: relative;
+    
   }
   #mobileCard{
     display: flex;
@@ -233,7 +240,9 @@ svg:hover {
     margin: 0 auto !important; */
   }
  
-  
+  .padding-fix {
+    padding-top: 4px;
+  }
   #mobile-facts{
     display: block !important;
   }
@@ -241,6 +250,7 @@ svg:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     color: white;
+    margin: 0 auto !important;
   }
   #card-icon {
     width: 40px;

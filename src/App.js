@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route, withRouter } from 'react-router-dom'
+import { HashRouter, Switch, Route, withRouter } from 'react-router-dom'
 import ReactTypingEffect from 'react-typing-effect';
 import About from "./components/About.js"
 import './styles/style.css'
@@ -9,7 +9,7 @@ import Projects from './components/Projects.js'
 import Contact from './components/Contact'
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter basename='/'>
     <NavBar></NavBar>
     <Switch>
       <Route exact path="/" component={withRouter(Home)} />
@@ -18,7 +18,7 @@ const App = () => (
       {/* <Route path="/contact" component={Contact} /> */}
     </Switch>
    
-  </BrowserRouter>
+  </HashRouter>
 )
 
 const Home = () => {
@@ -30,6 +30,8 @@ const Home = () => {
       <ReactTypingEffect
         
         text={["software developer", "programmer", "sustainability advocate"]}
+        typingDelay={1000}
+        eraseDelay={3000}
         cursorRenderer={cursor => <h2>{cursor}</h2>}
         displayTextRenderer={(text, i) => {
           return (

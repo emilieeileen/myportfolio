@@ -250,7 +250,8 @@ svg:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     color: white;
-    margin: 0 auto !important;
+    margin-right: 2rem !important
+    ;
   }
   #card-icon {
     width: 40px;

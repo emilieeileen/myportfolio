@@ -9,12 +9,12 @@ import Projects from './components/Projects.js'
 import Contact from './components/Contact'
 
 const App = () => (
-  <HashRouter basename='/'>
+  <HashRouter basename='/myportfolio'>
     <NavBar></NavBar>
     <Switch>
-      <Route exact path="/" component={withRouter(Home)} />
-      <Route path="/about" component={withRouter(About)} />
-      <Route path="/projects" component={withRouter(Projects)} />
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/projects" component={Projects} />
       {/* <Route path="/contact" component={Contact} /> */}
     </Switch>
    

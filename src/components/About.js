@@ -178,7 +178,7 @@ export default function About() {
                   <RiGovernmentLine id='card-icon' size='100px' />
                 </div>
                 <div className="flip-card-back">
-                  <p className='margin-center m-5'>I am an active member of Democrats Abroad UK, an expat organization that helps get American ex-pats at to vote as well as provide a community to meet other Americans with similar interests. I am particularly active in the Women's Caucus and the Environment Policy Network Group where I hold the roles of Co-Chair and Co-Lead respectively.
+                  <p className='margin-center m-5'>I am an active member of Democrats Abroad UK, an expat organization that helps get American ex-pats out to vote as well as provide a community to meet other Americans with similar interests. I am particularly active in the Women's Caucus and the Environment Policy Network Group where I hold the roles of Co-Chair and Co-Lead respectively.
                   I am also a member of the web development team, where I helped build and test the new site in addition to giving group and caucus leaders Wordpress training.
             </p>
                 </div>
@@ -224,7 +224,7 @@ export default function About() {
         <div id='funFact' className='padding-fix'>
           <h3 className='margin-center m-5 color-text'>Democrats Abroad <RiGovernmentLine id='card-icon' /></h3>
           
-          <p className='margin-center ml-5 mr-5 pb-5'>I am an active member of Democrats Abroad UK, an expat organization that helps get American ex-pats at to vote as well as provide a community to meet other Americans with similar interests. I am particularly active in the Women's Caucus and the Environment Policy Network Group where I hold the roles of Co-Chair and Co-Lead respectively. I am also a member of the web development team, where I helped build and test the new site in addition to giving group and caucus leaders Wordpress training.</p>
+          <p className='margin-center ml-5 mr-5 pb-5'>I am an active member of Democrats Abroad UK, an expat organization that helps get American ex-pats out to vote as well as provide a community to meet other Americans with similar interests. I am particularly active in the Women's Caucus and the Environment Policy Network Group where I hold the roles of Co-Chair and Co-Lead respectively. I am also a member of the web development team, where I helped build and test the new site in addition to giving group and caucus leaders Wordpress training.</p>
         </div>
         <div id='funFact' className='padding-fix'>
           <h3 className='margin-center m-5 color-text'>Travel <GiEarthAmerica id='card-icon' /></h3>

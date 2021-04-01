@@ -188,7 +188,7 @@ export default function Projects() {
           <p className='p-3 mr-5'>Since April 2020, I have been working with the Democrats Abroad UK Web Development team to create a new site for the organisation. During the development process, I aided in the creation of pages for multiple groups as well as conducted QA testing. My current role includes, but is not limited to, posting events, design editing content blocks and Wordpress training for group and caucus leaders.</p>
           <div className='d-flex flex-row justify-content-center'>
             
-            <div className='p-2 m-2'><a href='https://emilieeileen.github.io/project-1-pacman/'><CgWebsite size='5x' /></a></div>
+            <div className='p-2 m-2'><a href='https://democratsabroad.org.uk/'><CgWebsite size='5x' /></a></div>
           </div>
           <h4 className='ml-4'>Technologies Used</h4>
           <div className="d-flex flex-wrap" id="tech-box">

@@ -7,7 +7,7 @@ import { withRouter } from 'react-router'
 function NavBar() {
   return <Navbar expand="lg">
    
-  <Navbar.Brand href="/myportfolio">
+  <Navbar.Brand href="/">
   <img
         alt="Winston the Corgi, logo for Emily Kulesa's Portfolio"
         src={winston}
@@ -18,8 +18,8 @@ function NavBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/myportfolio/#/about">About</Nav.Link>
-      <Nav.Link href="/myportfolio/#/projects">Projects</Nav.Link>
+      <Nav.Link href="/#/about">About</Nav.Link>
+      <Nav.Link href="/#/projects">Projects</Nav.Link>
       {/* <Nav.Link href="/contact">Contact Me</Nav.Link> */}
     </Nav>   
   </Navbar.Collapse>

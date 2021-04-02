@@ -272,7 +272,7 @@ export default function Projects() {
             <div className='p-2 m-2'><a href='https://github.com/emilieeileen/project-2'><SiGithub size='5x' /></a></div>
             <div className='p-2 m-2'><a href='https://emilieeileen.github.io/project-2/'><CgWebsite size='5x' /></a></div>
           </div>
-          <h4 className='ml-4'>Technologies Used</h4>
+          <h4 className='ml-4' id='techtitle'>Technologies Used</h4>
           <div className="d-flex flex-wrap" id='techbox'>
           <div className='card' id='techicon'>
               <DiHtml5 size='5x' id='nohover'/>

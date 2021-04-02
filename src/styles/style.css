@@ -185,9 +185,9 @@ svg:hover {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   #title{
-    align-text: center;
+    text-align: center;
   }
   .card{
     padding: 5px;
@@ -206,25 +206,53 @@ svg:hover {
     flex-direction: column !important;
   }
   #projectCard{
-    max-width: 80%;
-    min-width: 60%;
+    max-width: 60rem !important;
+    min-width: 10rem !important;
+    margin: 0 auto;
+    padding: 2em !important;
+  }
+  h2 {
+    text-align: center;
   }
   .projectIMG{
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 15rem !important;
-    position: relative;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 105%;
     
   }
+  #projectInfo {
+    margin-right: auto !important;
+    padding: 0px !important;
+    margin-top: 1em;
+    font-size: 16px !important;
+  }
+  
   #mobileCard{
     display: flex;
     flex-direction: column !important;
     justify-content: center !important;
   }
+  #techtitle{
+    margin-left: 0 auto !important;
+    margin-right: 10% !important;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 7px !important;
+  }
   #techbox{
-    max-width: 50% !important;
+    min-width: 109% !important;
     display: flex;
+    flex: wrap !important;
     align-content: center !important;
+    text-align: center;
+    margin: 0 auto !important;
+    margin-left: 0 auto !important;
+    margin-right: 0 auto !important;
+  }
+  #techicon{
+    margin-left: 1px !important;
+    margin-right: 1px !important;
   }
   #skillsdiv {
     margin: 0 auto !important;
@@ -251,15 +279,33 @@ svg:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     color: white;
-    margin-right: 2rem !important
-    ;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 20rem !important;
+    min-width: 17rem !important;
+    
   }
   #card-icon {
     width: 40px;
   }
+ .singleIcon{
+   font-size: 40px;
+ }
+ svg {
+   width: 40px;
+ }
+ svg:hover {
+  width: 40px;
+}
+ #skillsdiv {
+   min-width: 20em !important;
+   display:flex ;
+   justify-content: center !important;
+   margin-left: -13% !important;
+ }
 
 }
-@media(min-width:1001px){
+@media(min-width:1023px){
   
   #mobile-facts{
     

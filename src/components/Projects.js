@@ -45,58 +45,58 @@ export default function Projects() {
           <img className='projectIMG' src={arrivr_home} width="600px" />
         </div>
         <div className='d-flex flex-column'>
-          <p className='p-3 mr-5'>A week-long group project. My group created an AirBnb clone, where we created our own MongoDB database and linked it to a React frontend. My role focused on creating the backend, specifically the controllers in Express and formatting how users saw bookings and comments on the front end depending on if they are a host, guest or regular user.</p>
+          <p className='p-3 mr-5' id='projectInfo'>A week-long group project. My group created an AirBnb clone, where we created our own MongoDB database and linked it to a React frontend. My role focused on creating the backend, specifically the controllers in Express and formatting how users saw bookings and comments on the front end depending on if they are a host, guest or regular user.</p>
           <div className='d-flex flex-row justify-content-center'>
             <div className='p-2 m-2'><a href='https://github.com/emilieeileen/project_3'><SiGithub size='5x' /></a></div>
             <div className='p-2 m-2'><a href='https://arrivr-sei53.herokuapp.com/'><CgWebsite size='5x' /></a></div>
           </div>
-          <h4 className='ml-4' id='techbox'>Technologies Used</h4>
-          <div className="d-flex flex-wrap">
-          <div className='card'>
+          <h4 className='ml-4' id='techtitle'>Technologies Used</h4>
+          <div className="d-flex flex-wrap" id='techbox'>
+          <div className='card' id='techicon'>
               <DiHtml5 size='5x' id='nohover'/>
           HTML
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiSass size='5x' id='nohover'/>
           SASS
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <DiReact size='5x' id='nohover'/>
           React
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <SiBulma size='5x' id='nohover'/>
           Bulma
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <DiNpm size='5x' id='nohover'/>
           npm
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <DiNodejsSmall size='5x' id='nohover'/>
           Node
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <SiMongodb size='5x' id='nohover'/>
           MongoDB
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <i className="singleIcon devicon-express-original" width='40px' id='nohover'></i>
           Express
         </div>
-        <div className='card'>
+        <div className='card' id='techicon'>
             <DiVisualstudio size='5x' id='nohover'/>
           VS Code
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <DiGit size='5x' id='nohover'/>
           Git
         </div>
-            <div className='card'>
+        <div className='card' id='techicon'>
             <SiGithub size='5x' id='nohover'/>
           GitHub
         </div>
-        <div className='card'>
+        <div className='card' id='techicon'>
             <SiHeroku size='5x' id='nohover'/>
           Heroku
         </div>
@@ -115,58 +115,58 @@ export default function Projects() {
           <img className='projectIMG' src={lc_post} width="600px" />
         </div>
         <div className='d-flex flex-column'>
-          <p className='p-3 mr-5'>A week-long group project. My group created a networking website for people wanting to learn or teach a new language. My role consisted of Project Lead, where I took charge of organising our team schedule. My technical work focused on the creation of the PostgreSQL database and the styling of the front end. I also aided in the creation of the Formik forms.</p>
+          <p className='p-3 mr-5' id='projectInfo'>A week-long group project. My group created a networking website for people wanting to learn or teach a new language. My role consisted of Project Lead, where I took charge of organising our team schedule. My technical work focused on the creation of the PostgreSQL database and the styling of the front end. I also aided in the creation of the Formik forms.</p>
           <div className='d-flex flex-row justify-content-center'>
             <div className='p-2 m-2'><a href='https://github.com/emilieeileen/project4'><SiGithub size='5x' /></a></div>
             <div className='p-2 m-2'><a href='https://language-connect.herokuapp.com/'><CgWebsite size='5x' /></a></div>
           </div>
-          <h4 className='ml-4' id='techbox'>Technologies Used</h4>
-          <div className="d-flex flex-wrap">
-          <div className='card'>
+          <h4 className='ml-4' id='techtitle'>Technologies Used</h4>
+          <div className="d-flex flex-wrap" id='techbox'>
+          <div className='card' id='techicon'>
               <DiHtml5 size='5x' id='nohover'/>
           HTML
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiSass size='5x' id='nohover'/>
           SASS
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiReact size='5x' id='nohover'/>
           React
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiBulma size='5x' id='nohover'/>
           Bulma
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiNpm size='5x' id='nohover'/>
           npm
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiNodejsSmall size='5x' id='nohover'/>
           Node
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiFlask size='5x' id='nohover'/>
           Flask
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiPostgresql size='5x' id='nohover'/>
           PostgreSQL
         </div>
-        <div className='card'>
+        <div className='card' id='techicon'>
             <DiVisualstudio size='5x' id='nohover'/>
           VS Code
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiGit size='5x' id='nohover'/>
           Git
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiGithub size='5x' id='nohover'/>
           GitHub
         </div>
-        <div className='card'>
+        <div className='card' id='techicon'>
             <SiHeroku size='5x' id='nohover'/>
           Heroku
         </div>
@@ -185,22 +185,22 @@ export default function Projects() {
         </div>
         <div className='d-flex flex-column'>
 
-          <p className='p-3 mr-5'>Since April 2020, I have been working with the Democrats Abroad UK Web Development team to create a new site for the organisation. During the development process, I aided in the creation of pages for multiple groups as well as conducted QA testing. My current role includes, but is not limited to, posting events, design editing content blocks and Wordpress training for group and caucus leaders.</p>
+          <p className='p-3 mr-5' id='projectInfo'>Since April 2020, I have been working with the Democrats Abroad UK Web Development team to create a new site for the organisation. During the development process, I aided in the creation of pages for multiple groups as well as conducted QA testing. My current role includes, but is not limited to, posting events, design editing content blocks and Wordpress training for group and caucus leaders.</p>
           <div className='d-flex flex-row justify-content-center'>
             
             <div className='p-2 m-2'><a href='https://democratsabroad.org.uk/'><CgWebsite size='5x' /></a></div>
           </div>
-          <h4 className='ml-4'>Technologies Used</h4>
-          <div className="d-flex flex-wrap" id="tech-box">
-            <div className='card'>
+          <h4 className='ml-4' id='techtitle'>Technologies Used</h4>
+          <div className="d-flex flex-wrap" id="techbox">
+            <div className='card' id='techicon'>
               <DiHtml5 size='5x' id='nohover'/>
           HTML
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiCss3 size='5x' id='nohover'/>
           CSS
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiWordpress size='5x' id='nohover'/>
           Wordpress
         </div>
@@ -221,34 +221,34 @@ export default function Projects() {
         </div>
         <div className='d-flex flex-column'>
 
-          <p className='p-3 mr-5'>A week-long independent project where we created a classic grid style game. I chose a Pac-Man style game based on my corgi, Winston, using CSS and vanilla JavaScript to create the logic for the movements of the squirrels and Winston. I also used JavaScript to create a points and lives system, as well as a local storage scoreboard.</p>
+          <p className='p-3 mr-5' id='projectInfo'>A week-long independent project where we created a classic grid style game. I chose a Pac-Man style game based on my corgi, Winston, using CSS and vanilla JavaScript to create the logic for the movements of the squirrels and Winston. I also used JavaScript to create a points and lives system, as well as a local storage scoreboard.</p>
           <div className='d-flex flex-row justify-content-center'>
             <div className='p-2 m-2'><a href='https://github.com/emilieeileen/project-1-pacman'><SiGithub size='5x' /></a></div>
             <div className='p-2 m-2'><a href='https://emilieeileen.github.io/project-1-pacman/'><CgWebsite size='5x' /></a></div>
           </div>
-          <h4 className='ml-4'>Technologies Used</h4>
-          <div className="d-flex flex-wrap" id="tech-box">
-            <div className='card'>
+          <h4 className='ml-4' id='techtitle'>Technologies Used</h4>
+          <div className="d-flex flex-wrap" id="techbox">
+            <div className='card' id='techicon'>
               <DiHtml5 size='5x' id='nohover'/>
           HTML
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiCss3 size='5x' id='nohover'/>
           CSS
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiJsBadge size='5x' id='nohover'/>
           JavaScript
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiVisualstudio size='5x' id='nohover'/>
           VS Code
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiGit size='5x' id='nohover'/>
           Git
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiGithub size='5x' id='nohover'/>
           GitHub
         </div>
@@ -267,43 +267,43 @@ export default function Projects() {
           <img className='projectIMG' src={smp} width="600px" />
         </div>
         <div className='d-flex flex-column'>
-          <p className='p-3 mr-5'>A 48 Hour pair programming project where my partner and I used The Movie DataBase API to create an old Hollywood, Art Deco style movie search and suggestion app. My role focused on the styling of the website, as well as setting up the components for each page type to display the relevant information from the API.</p>
+          <p className='p-3 mr-5' id='projectInfo'>A 48 Hour pair programming project where my partner and I used The Movie DataBase API to create an old Hollywood, Art Deco style movie search and suggestion app. My role focused on the styling of the website, as well as setting up the components for each page type to display the relevant information from the API.</p>
           <div className='d-flex flex-row justify-content-center'>
             <div className='p-2 m-2'><a href='https://github.com/emilieeileen/project-2'><SiGithub size='5x' /></a></div>
             <div className='p-2 m-2'><a href='https://emilieeileen.github.io/project-2/'><CgWebsite size='5x' /></a></div>
           </div>
           <h4 className='ml-4'>Technologies Used</h4>
           <div className="d-flex flex-wrap" id='techbox'>
-          <div className='card'>
+          <div className='card' id='techicon'>
               <DiHtml5 size='5x' id='nohover'/>
           HTML
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiCss3 size='5x' id='nohover'/>
           CSS
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiReact size='5x' id='nohover'/>
           React
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiWebpack size='5x' id='nohover'/>
           Webpack
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiNpm size='5x' id='nohover'/>
           npm
         </div>
 
-        <div className='card'>
+        <div className='card' id='techicon'>
             <DiVisualstudio size='5x' id='nohover'/>
           VS Code
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <DiGit size='5x' id='nohover'/>
           Git
         </div>
-            <div className='card'>
+            <div className='card' id='techicon'>
             <SiGithub size='5x' id='nohover'/>
           GitHub
         </div>

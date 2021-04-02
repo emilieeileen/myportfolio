@@ -196,6 +196,11 @@ svg:hover {
   .mr-5 {
     margin-right: 0 !important;
   }
+  #bioInfo {
+    font-size: 16px !important;
+    width: 100% !important;
+    
+  }
   #fun-facts {
     display: flex !important;
     flex-direction: column !important;
@@ -204,6 +209,7 @@ svg:hover {
   #info-div{
     display: flex !important;
     flex-direction: column !important;
+    
   }
   #projectCard{
     max-width: 60rem !important;
@@ -254,11 +260,7 @@ svg:hover {
     margin-left: 1px !important;
     margin-right: 1px !important;
   }
-  #skillsdiv {
-    margin: 0 auto !important;
-    display: flex;
-    justify-content: center !important;
-  }
+  
   #desktop-facts{
     display: none;
     
@@ -281,12 +283,21 @@ svg:hover {
     color: white;
     margin: 0 auto;
     margin-bottom: 10px;
-    max-width: 20rem !important;
+    max-width: 25rem !important;
     min-width: 17rem !important;
-    
+    padding: 10px !important;
   }
   #card-icon {
     width: 40px;
+  }
+  #factTitle{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  #factInfo {
+    font-size: 14px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
   }
  .singleIcon{
    font-size: 40px;
@@ -298,14 +309,23 @@ svg:hover {
   width: 40px;
 }
  #skillsdiv {
-   min-width: 20em !important;
+   min-width: 20rem !important;
    display:flex ;
    justify-content: center !important;
-   margin-left: -13% !important;
+   margin: 0 auto !important;
+   margin-left: 0 auto !important;
+   margin-right: 0 auto !important;
  }
 
 }
-@media(min-width:1023px){
+@media(max-width: 375px){
+  #skillsdiv{
+    min-width: 120% !important;
+    margin: 0 auto !important;
+    margin-left: -28px !important;
+  }
+}
+@media(min-width:1025px){
   
   #mobile-facts{
     

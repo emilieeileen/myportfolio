@@ -17,39 +17,50 @@ const App = () => (
       <Route path="/projects" component={Projects} />
       {/* <Route path="/contact" component={Contact} /> */}
     </Switch>
-   
+
   </HashRouter>
 )
 
 const Home = () => {
-  return <div>
-    <div className='mt-5'>
-      <h1 className="d-flex justify-content-center color-text" id='title'>Emily Kulesa</h1>
-      <br />
-      <div className="d-flex justify-content-center">
-      <ReactTypingEffect
-        
-        text={["software developer", "programmer", "sustainability advocate"]}
-        typingDelay={1000}
-        eraseDelay={3000}
-        cursorRenderer={cursor => <h2>{cursor}</h2>}
-        displayTextRenderer={(text, i) => {
-          return (
-            <h1>
-              {text.split('').map((char, i) => {
-                const key = `${i}`;
-                return (
-                  <span
-                    key={key}
-                    style={i % 2 === 0 ? { color: 'black' } : { color: 'black' }}
-                  >{char}</span>
-                );
-              })}
-            </h1>
-          );
-        }}
-      />
+  return <div className='homepage'>
+    <div className='homeDiv d-flex justify-content-center align-items-center'>
+    <div className='card-fluid p-5 d-flex justify-content-center align-items-center' id='homeCard'>
+      <div>
+        <h1 className="d-flex justify-content-center color-text" id='titleName'>Emily Kulesa</h1>
+        <br />
+        <div className="d-flex justify-content-center">
+          <ReactTypingEffect
+            
+            text={["software developer", "programmer", "sustainability advocate"]}
+            typingDelay={1000}
+            eraseDelay={3000}
+            cursorRenderer={cursor => <h2>{cursor}</h2>}
+            displayTextRenderer={(text, i) => {
+              return (
+                <h1 id='typingtext'>
+                  {text.split('').map((char, i) => {
+                    const key = `${i}`;
+                    return (
+                      <span
+                      
+                        key={key}
+                        style={i % 2 === 0 ? { color: 'black' } : { color: 'black' }}
+                      >{char}</span>
+                    );
+                  })}
+                </h1>
+              );
+            }}
+          />
+          
+        </div>
+        <br />
+        <div className='button-div d-flex justify-content-around color-text p-3'>
+          <button className='btn  color-text'><a className='a-text' href='/#/about'>About</a></button>
+          <button className='btn color-text'><a className='a-text' href='/#/projects'>Projects</a></button>
+        </div>
       </div>
+    </div>
     </div>
   </div>
 }

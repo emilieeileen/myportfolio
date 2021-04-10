@@ -29,8 +29,8 @@ export default function About() {
         </div>
         <div className="d-flex flex-column">
           <img id='emily_photo' src={emily_photo} />
-          <h3 className='text-center color-text mt-3'>Contact Me</h3>
-          <div className="d-flex flex-row justify-content-center">
+          <h3 className='text-center color-text mt-3 mb-3'>Contact Me</h3>
+          <div className="d-flex flex-row justify-content-center mt-2">
             <div className='card' id='contact'>
               <a href="https://www.linkedin.com/in/eekulesa/">
                 <SiLinkedin size='3x' id='contactIcon' />

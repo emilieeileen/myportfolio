@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
+
 #title{
   font-family: 'Bungee Shade', cursive;
   font-weight: bold;
@@ -19,6 +20,54 @@ body {
   background-color: #4fe0c8 !important;
   color: black !important;
 }
+.homepage{
+  background: url(../images/tealPattern.jpeg) !important;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+.homeDiv {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center !important;
+  align-content: center !important;
+}
+#titleName{
+  font-family: 'Bungee Shade', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 auto !important;
+  
+}
+#homeCard{
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 auto !important;
+  height: 300px;
+  width: 700px;
+  border-radius: 20px;
+  
+ 
+}
+.btn {
+  background: navy !important;
+  color: #4fe0c8 !important;
+}
+
+.btn:hover{
+  background: #4fe0c8 !important;
+  color: navy !important;
+}
+.a-text{
+  color: #4fe0c8 !important; 
+}
+.a-text:hover{
+  color: navy !important; 
+}
+
+/* About */ 
 .bio{
   font-size: 22px;
 }
@@ -36,7 +85,7 @@ body {
   width: 40px !important;
 }
 .color-text{
-  color: navy;
+  color: navy !important;
 }
 #skillsdiv{
   margin: 0 auto !important;
@@ -186,6 +235,17 @@ svg:hover {
 
 
 @media (max-width: 1024px) {
+  #homeCard {
+    width: 100vh !important;
+    height: 45vh !important;
+  }
+  
+  #titleName{
+    text-align: center;
+  }
+  h1 #typyingtext{
+    font-size: 1.5rem !important;
+  }
   #title{
     text-align: center;
   }

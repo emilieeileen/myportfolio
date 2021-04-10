@@ -30,7 +30,7 @@ const Home = () => {
         <br />
         <div className="d-flex justify-content-center">
           <ReactTypingEffect
-            
+            id='typingtext'
             text={["software developer", "programmer", "sustainability advocate"]}
             typingDelay={1000}
             eraseDelay={3000}

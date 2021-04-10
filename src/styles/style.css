@@ -237,13 +237,13 @@ svg:hover {
 @media (max-width: 1024px) {
   #homeCard {
     width: 100vh !important;
-    height: 45vh !important;
+    height: 50vh !important;
   }
   
   #titleName{
     text-align: center;
   }
-  h1 #typyingtext{
+  #typingtext{
     font-size: 1.5rem !important;
   }
   #title{
